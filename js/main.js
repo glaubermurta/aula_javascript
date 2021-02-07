@@ -1,5 +1,24 @@
+function soma(n1, n2){
+    return n1 + n2;
+}
 
-/*var d = new Date();
+var  validar = 0;
+
+function validaIdade(idade){
+    if (idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+    }
+
+var idade = prompt("Qual a sua Idade?");
+validaIdade(idade)
+console.log(validar);
+
+/*
+var d = new Date();
 alert(d.getDay());
 alert(d.getHours());
 alert (d.getMinutes());
@@ -12,12 +31,14 @@ for(count=0; count <= 5; count++){
 }
 */
 
+/*
 var count = 0;
 while (count <= 5){
     console.log(count);
     alert(count);
     count++;
 }
+*/
 
 /*
 var idade = prompt("Qual sua idade");
@@ -35,13 +56,15 @@ console.log(frutas);
 alert(frutas[1].cor);
 */
 
-/*var fruta = {nome:"maça", cor:"vermelha"}
+/*
+var fruta = {nome:"maça", cor:"vermelha"}
 console.log(fruta.nome);
 alert(fruta.cor);
 */
 
 
-/*var nome= "Glauber Murta";
+/*
+var nome= "Glauber Murta";
 var idade = 36;
 var idade2 = 10;
 var frase = "Brasil é o melhor time do mundo";
