@@ -1,7 +1,34 @@
+
+function clicou(){
+    alert("Obrigado por Clicar");
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = ("Obrigado por passar o mouse");
+    elemento.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = ("Obrigado por passar o mouse");
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("A Página Foi Carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
+*/
 
+
+/*
 var  validar = 0;
 
 function validaIdade(idade){
@@ -16,6 +43,8 @@ function validaIdade(idade){
 var idade = prompt("Qual a sua Idade?");
 validaIdade(idade)
 console.log(validar);
+*/
+
 
 /*
 var d = new Date();
@@ -23,6 +52,7 @@ alert(d.getDay());
 alert(d.getHours());
 alert (d.getMinutes());
 */
+
 
 /*
 var count;
@@ -74,5 +104,3 @@ var frase = "Brasil é o melhor time do mundo";
 console.log(nome)
 console.log(frase.toLocaleUpperCase);
 */
-
-
